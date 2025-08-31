@@ -6,6 +6,9 @@ on:
       - main
     paths:
       - "index.html"
+      
+permissions:
+  contents: write
 
 jobs:
   deploy:
